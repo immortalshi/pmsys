@@ -25,7 +25,7 @@
                 <i class="el-icon-s-grid"></i>
                 <span slot="title">首页</span>
               </el-menu-item>
-              <el-submenu index = "2">
+              <!--<el-submenu index = "2">
                 <template slot="title">
                   <i class="el-icon-user-solid"></i>
                   <span>个人信息</span>
@@ -48,48 +48,14 @@
                     <span>垃圾箱</span>
                   </el-menu-item>
                 </el-menu-item-group>
-              </el-submenu>
-              <el-menu-item index="chattingRoom">
-                <i class="el-icon-chat-line-square"></i>
-                <span slot="title">聊天室</span>
+              </el-submenu>-->
+              <el-menu-item index="teamMember">
+                <i class="el-icon-s-custom"></i>
+                <span slot="title">小组成员</span>
               </el-menu-item>
-              <el-menu-item index="myArticle">
+              <el-menu-item index="mission">
                 <i class="el-icon-document-add"></i>
-                <span slot="title">我要投稿</span>
-              </el-menu-item>
-
-              <el-submenu index="5">
-                <template slot="title">
-                  <i class="el-icon-s-custom"></i>
-                  <span>干部竞选</span>
-                </template>
-                <el-menu-item-group>
-                  <el-menu-item index="chief">
-                    <!--<i class="el-icon-s-order"></i>-->
-                    <span>社长</span>
-                  </el-menu-item>
-                  <el-menu-item index="secretary">
-                    <!--<i class="el-icon-star-on"></i>-->
-                    <span>秘书长</span>
-                  </el-menu-item>
-                  <el-menu-item index="study">
-                    <!--<i class="el-icon-present"></i>-->
-                    <span>学习部长</span>
-                  </el-menu-item>
-                  <el-menu-item index="logistics">
-                    <!--<i class="el-icon-delete-solid"></i>-->
-                    <span>后勤部长</span>
-                  </el-menu-item>
-                  <el-menu-item index="outreach">
-                    <!--<i class="el-icon-delete-solid"></i>-->
-                    <span>外联部长</span>
-                  </el-menu-item>
-                </el-menu-item-group>
-              </el-submenu>
-
-              <el-menu-item index="library" >
-                <i class="el-icon-collection"></i>
-                <span slot="title">图书馆</span>
+                <span slot="title">任务</span>
               </el-menu-item>
             </el-menu>
           </el-col>
@@ -97,7 +63,7 @@
       </el-aside>
       <el-container>
         <el-main><router-view></router-view></el-main>
-        <el-footer style="color: #E9EEF3">作者：伟大的石仙人</el-footer>
+        <el-footer style="color: #E9EEF3">作者：xxx</el-footer>
       </el-container>
     </el-container>
 <!--    <el-backtop target=".page-component__scroll .el-scrollbar__wrap"></el-backtop>-->
