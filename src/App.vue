@@ -84,7 +84,7 @@
 
 
 <script>
-  import leftmenu from './components/leftmenu'
+  import leftmenu from '@/view/leftmenu'
   export default {
     name: 'App',
     components: {

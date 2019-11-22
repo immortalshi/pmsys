@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import leftmenu from '@/components/leftmenu'
+import leftmenu from '@/view/leftmenu'
 
 Vue.use(Router)
 
